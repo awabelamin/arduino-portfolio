@@ -1,0 +1,16 @@
+# Arduino / PlatformIO build output
+build/
+.pio/
+*.hex
+*.elf
+*.bin
+
+# graphify knowledge-graph cache
+graphify-out/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
