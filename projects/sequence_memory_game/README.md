@@ -2,8 +2,6 @@
 
 A breadboard memory game inspired by the [Human Benchmark Sequence Memory test](https://humanbenchmark.com/tests/sequence). The Arduino flashes a sequence of lights and tones, and you repeat it with the buttons. Every round adds one more step and plays a little faster. The **high score is saved in EEPROM**, so it survives power-off.
 
-<!-- ![Demo](../../docs/media/sequence_memory_game/demo.gif) -->
-
 ## Components
 
 | Qty | Part |

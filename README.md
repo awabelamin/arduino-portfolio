@@ -1,10 +1,20 @@
 # Arduino Projects Portfolio
 
-A collection of the embedded-systems projects I built with Arduino during university: from first LED blinks to autonomous robot cars, assistive devices, and a color-based fruit sorter.
+**Awab Elamin** · [LinkedIn](https://www.linkedin.com/in/awab-osama-mohamed-elamin/)
+
+A collection of the embedded-systems projects I've built with Arduino since 2020: from first LED blinks to autonomous robot cars, assistive devices, and a color-based fruit sorter.
 
 Every project folder is a ready-to-open Arduino sketch with its own README: what it does, the parts list, the wiring table, and how the code works.
 
-> 📷 Photos and demo videos for each project live in [`docs/media/`](docs/media/) and are linked from each project's README.
+## About this repository
+
+These projects span about six years of work, from 2020 to 2026, built for university courses, term projects, and my own learning.
+
+Most of the original source files and photos from those years were not kept. **The ideas, designs, and hardware are mine, and I built and ran every one of these projects. The code in this repository is a fresh rewrite of each project**, recreated from its original concept and documented properly so that each one can be rebuilt and understood today.
+
+That means:
+- The pin choices and wiring tables describe a clean, reproducible version of each build. They may differ in small details from the original circuits.
+- The sketches follow good practice (non-blocking timing, debouncing, state machines) and are written to be read and reused.
 
 ---
 
@@ -16,7 +26,7 @@ Every project folder is a ready-to-open Arduino sketch with its own README: what
 | 2 | [Obstacle-Avoiding Car](projects/obstacle_avoiding_car/) | Drives on its own, scans left/right with a servo "head" and picks the clearest path | HC-SR04, SG90 servo, L298N | Decision logic, PWM, servo control |
 | 3 | [Smart Blind Stick](projects/blind_stick/) | Walking stick that warns visually impaired users of nearby obstacles with sound and vibration | HC-SR04, buzzer, vibration motor | Assistive tech, distance mapping |
 | 4 | [Distance Alarm](projects/distance_alarm/) | Parking-sensor style alarm: LEDs go green → yellow → red and the beeping speeds up as objects get closer | HC-SR04, 3 LEDs, buzzer | Non-blocking timing with `millis()` |
-| 5 | [Multi-Screen Stopwatch](projects/multiscreen_stopwatch/) | Stopwatch shown across multiple displays | *see project page* | Display multiplexing, timing |
+| 5 | [Multi-Screen Clock & Stopwatch](projects/multiscreen_stopwatch/) | EENG312 term project (Fall 2023): clock + stopwatch + lap list on one LCD with three screens | LCD 16×2, 3 buttons, buzzer | Multi-screen UI, `millis()` timekeeping |
 | 6 | [Automatic Plant Watering](projects/plant_watering/) | Measures soil moisture and runs a pump only when the plant is dry | Soil sensor, relay, water pump | State machines, hysteresis |
 | 7 | [Mini Weather & Soil Station](projects/mini_weather_station/) | Shows temperature, humidity, and soil moisture on a 16×2 LCD | DHT11, soil sensor, LCD 16×2 | Sensor fusion, LCD UI |
 | 8 | [Lemon Color Sorter](projects/lemon_color_sorter/) | Detects green vs. yellow lemons with a color sensor and flips a servo gate to sort them | TCS3200, SG90 servo | Color sensing, calibration, classification |
@@ -57,8 +67,8 @@ arduino-portfolio/
 │   ├── mini_weather_station/
 │   ├── lemon_color_sorter/
 │   └── sequence_memory_game/
-└── docs/
-    └── media/                   # photos, GIFs, demo videos
+├── LICENSE
+└── README.md
 ```
 
 Each project folder contains:
@@ -77,10 +87,9 @@ Each project folder contains:
 
 ## About me
 
-I'm an engineering student who enjoys turning ideas into working hardware.
+I'm Awab Elamin, an engineer who enjoys turning ideas into working hardware.
 
-- LinkedIn: *add your LinkedIn URL here*
-- Email: *add your email here*
+- LinkedIn: [linkedin.com/in/awab-osama-mohamed-elamin](https://www.linkedin.com/in/awab-osama-mohamed-elamin/)
 
 ## License
 

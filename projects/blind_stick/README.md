@@ -2,8 +2,6 @@
 
 An assistive device for visually impaired people: an ordinary walking stick fitted with an ultrasonic sensor. It warns the user about obstacles ahead with **sound and vibration**, and the warning gets faster as the obstacle gets closer.
 
-<!-- ![Stick](../../docs/media/blind_stick/photo.jpg) -->
-
 ## Components
 
 | Qty | Part |

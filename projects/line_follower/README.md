@@ -2,8 +2,6 @@
 
 A 4WD robot that follows a black tape line on a light floor using two infrared reflectance sensors and closed-loop steering.
 
-<!-- ![Demo](../../docs/media/line_follower/demo.gif) -->
-
 ## Components
 
 | Qty | Part |

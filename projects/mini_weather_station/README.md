@@ -2,8 +2,6 @@
 
 A small monitoring station that measures **temperature**, **humidity**, and **soil moisture** and shows them live on a 16×2 LCD. It also labels the soil as DRY / OK / WET so you know when a plant needs water.
 
-<!-- ![LCD](../../docs/media/mini_weather_station/photo.jpg) -->
-
 ## Components
 
 | Qty | Part |

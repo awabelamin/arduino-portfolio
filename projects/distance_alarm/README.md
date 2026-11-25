@@ -4,8 +4,6 @@ A parking-sensor style alarm. An ultrasonic sensor measures the distance to the 
 
 I also built and presented a version of this project in my **Microcontrollers** course.
 
-<!-- ![Demo](../../docs/media/distance_alarm/demo.gif) -->
-
 ## Components
 
 | Qty | Part |

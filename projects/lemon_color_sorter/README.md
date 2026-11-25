@@ -2,8 +2,6 @@
 
 An automatic fruit sorter. A lemon rolls under a **TCS3200 color sensor**, the Arduino decides whether it is **yellow (ripe)** or **green (unripe)**, and a **servo flap** sends it into the matching box. The same idea is used on real fruit-grading lines.
 
-<!-- ![Demo](../../docs/media/lemon_color_sorter/demo.gif) -->
-
 ## Components
 
 | Qty | Part |

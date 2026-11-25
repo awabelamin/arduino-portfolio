@@ -2,8 +2,6 @@
 
 An autonomous 4WD robot car. It drives forward until it detects an obstacle. Then it backs up, turns its ultrasonic "head" left and right with a servo, and drives toward the side with more free space.
 
-<!-- ![Demo](../../docs/media/obstacle_avoiding_car/demo.gif) -->
-
 ## Components
 
 | Qty | Part |

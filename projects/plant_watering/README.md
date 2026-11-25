@@ -2,8 +2,6 @@
 
 Keeps a plant watered without human help. A soil-moisture sensor checks the soil, and when it gets too dry, a relay switches on a small water pump until the soil is moist again.
 
-<!-- ![Setup](../../docs/media/plant_watering/photo.jpg) -->
-
 ## Components
 
 | Qty | Part |
